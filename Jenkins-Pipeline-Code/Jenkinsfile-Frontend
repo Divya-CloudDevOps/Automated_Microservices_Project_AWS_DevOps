@@ -79,7 +79,7 @@ pipeline {
         }
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = "Automated_Miroservices_Project_AWS_DevOps"
+                GIT_REPO_NAME = "Automated_Microservices_Project_AWS_DevOps"
                 GIT_USER_NAME = "Divya-CloudDevOps"
             }
             steps {
